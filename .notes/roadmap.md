@@ -1,0 +1,41 @@
+blogs
+- project ideation & setup of problem to be solved ending with a defined MVP spec & POC breakdown
+  - problem I'm encountering
+    - issues and concerns
+- MVP spec breakdown & POC outlines
+  - POC: gmail API usage & connection to email account
+    - connect
+    - test
+    - implement
+  - POC: gmail query strings from the API
+    - query strings from gmail web app
+    - test
+    - implement
+  - POC: gmail data extraction from the API
+    - explore data -> determine what to keep
+    - test
+    - implement
+  - POC: gmail labels
+    - POC: accessing labels for an account
+      - explore data
+      - get data
+      - test
+      - implement
+    - POC: adding labels to messages
+      - test
+      - implement
+    - POC: removing labels from messages
+      - test
+      - implement
+  - POC: writing data to CSV
+    - test
+    - implement
+  - tie all of things together you have the MVP
+- environment
+  - raspberry pi & cron
+- backup that data AWS S3
+- scaling this up
+  - flat files (mongoDB & RDBMS)
+
+- scaling: 3 CC not just chase
+  - point out original design decisions that made it scalable
